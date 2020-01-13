@@ -10,7 +10,7 @@ done
 
 for file in 'ls *.py'
 do
-    if [ wc -l $file -gt 10 ]
+    if [ wc -l $file -ge 10 ]
     then 
         mv $file long_$file
     else
